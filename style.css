@@ -1,0 +1,183 @@
+
+html{
+    background-image: linear-gradient(#FC5E55,#FA4083);
+
+}
+body{
+    background-image: url("images/image-lion-background.png");
+    background-repeat: no-repeat;
+    background-position-x: 200px;
+   
+}
+
+.container{
+
+    width: 1024px;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+   
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid lightgrey;
+    border-width: 1px;
+
+}
+main{
+   
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+
+    
+
+}
+main2{
+   
+    min-height: 300px;
+    
+    align-items: center;
+
+    
+
+}
+.cards{
+    
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    border-bottom: thin;
+    
+    
+    
+    
+}
+.card1{
+    background-image: url("images/image-background-card1.jpg");
+    background-size: cover;
+    min-height: 250px;
+    width:30%;
+    
+}
+.card2{
+    background-image: url("images/image-background-card2.jpg");
+    background-size: cover;
+    min-height: 250px;
+    width:30%;
+}
+.card3{
+    background-image: url("images/image-background-card3.jpg");
+    background-size: cover;
+    min-height: 250px;
+    width:30%;
+}
+.herobox1{
+    padding-right: 60px;
+    align-items:center;
+    width: 40%;
+    flex: 2;
+}
+.herobox2{
+    
+    width: 50%;
+    flex: 1;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.288);
+    
+    
+}
+p{
+    text-align: left;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+h2{
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+    
+}
+p{
+  
+    margin: 10px 30px 10px 20px;
+    text-align: left;
+}
+i{
+    padding-top: 20px;
+    font-size: 100px;
+   
+}
+ a{
+    color: white;
+    text-decoration: none;
+ }
+.mybutton {
+        background-color: white;
+        color: tomato;
+        text-decoration: none;
+        padding: 10px 25px 10px 25px;
+        border-radius: 10px 10px 10px 10px ;
+        box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.288);
+
+}
+.mybutton:hover{
+    background-color : rgb(63, 194, 144);
+
+}
+
+
+
+a.mybutton{
+    display: inline-block;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.Testimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.txtbox{
+    width: 40%;
+    height: 150px;
+    border: 1px solid white;
+    padding: 60px 20px 20px 20px;
+    
+    margin-top: 44px;
+    margin-bottom: 20px;
+    
+}
+
+
+.inputwrapper{
+    
+    margin:auto;
+    line-height: 40px;
+    width: auto;
+}
+
+.inputwrapper p{
+    margin: auto;
+    line-height: 10px;
+}
+
+
